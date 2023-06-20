@@ -5,11 +5,14 @@
  * @n: the int to check
  * Return: the absolute value of int
  */
-int _abs(int n)
+int _abs(int i)
 {
-	if (n >= 0)
+	if (i >= 0)
 	{
 		return (n);
 	}
-	return(-n);
+	else
+	{
+		return(i * -1);
+	}
 }
