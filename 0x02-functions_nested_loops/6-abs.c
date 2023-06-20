@@ -2,8 +2,10 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * @i: the int to check
- * Return: the absolute value of int
+ *
+ * @i: input number as an integer.
+ *
+ * Return: absolute
  */
 int _abs(int i)
 {
