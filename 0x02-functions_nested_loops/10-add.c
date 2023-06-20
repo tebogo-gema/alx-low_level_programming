@@ -3,17 +3,12 @@
 /**
  * add - adds two integers and returns the result
  *
- * @a: int to be added to b
+ * @a: number one.
+ * @b: number two
  *
- * @b: int to be added to a
- *
- * Return: sum of a and b
+ * Return: add number one and number two
  */
 int add(int a, int b)
 {
-	int c;
-	
-	c = a + b;
-
-	return (c);
+	return (a + b);
 }
